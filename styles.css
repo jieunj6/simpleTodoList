@@ -1,0 +1,94 @@
+body {
+    background-color:#000;
+}
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+}
+
+.clock__text {
+    font-size:5rem;
+    color:yellow;
+}
+
+.js-add-to-do.to-do__add-to-do,
+.js-name-input {
+    width:500px;
+    background:none;
+    border:0;
+    height:30px;
+    border-bottom:3px solid yellowgreen;
+    color:blanchedalmond;
+    font-size:1.4rem;
+}
+
+.js-user-name {
+    color:#fff;
+    font-size:3rem;
+}
+
+.js-form-name,
+.js-user-name {
+    display:none;
+    margin:20px 0;
+}
+
+.list li {
+    margin:20px 0;
+}
+button {
+    cursor:pointer;
+    background: yellow;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    font-weight: bold;
+    border:none;
+}
+.list span {
+    margin-left:20px;
+    color:#fff;
+    font-size:1.5rem;
+    vertical-align: middle;
+}
+
+.show {
+    display:block;
+}
+
+.clock,
+.name,
+.todo,
+.location {
+    position:relative;
+    z-index: 1;
+}
+
+.location {
+    color:#fff;
+    text-align: right;
+}
+
+.bg {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+    width:100%;
+    height:100%;
+    animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}

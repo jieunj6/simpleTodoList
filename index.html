@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Nicolás Serrano Arévalo" />
+    <title>Momonton</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- 위치 -->
+<div class="js-location location">
+    <span class="location__text"></span>
+</div>
+
+<section class="center">
+    <!-- 햔재시각 -->
+    <div class="js-clock clock">
+        <h3 class="clock__text"></h3>
+    </div>
+
+    <!-- 이름 -->
+    <div class="js-name name">
+        <form class="js-form-name">
+            <input type="text" class="js-name-input" placeholder="What is your name" />
+        </form>
+        <h1 class="js-user-name"></h1>
+    </div>
+
+    <!-- todoList -->
+    <div class="todo">
+        <form class="js-to-do to-do">
+            <input class="js-add-to-do to-do__add-to-do" placeholder="Write a To Do here" type="text" />
+        </form>
+        <ul class="js-list list"></ul>
+    </div>
+</section>
+
+
+
+<script src="js/clock.js"></script>
+<script src="js/greeting.js"></script>
+
+<script src="js/bg.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/toDo.js"></script>
+
+</body>
+
+</html>
