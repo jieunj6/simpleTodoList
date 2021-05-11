@@ -20,7 +20,7 @@ function init() {
 
     const randomNum = getRandom();
     paintImg(randomNum);
-    console.log('ddd')
+    console.log('ddddddd')
 
 
     // 나는 하나로 다 때려밖는데, 이걸 나눈다.
